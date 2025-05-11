@@ -129,8 +129,9 @@ body {
   gap: 0 20px;
 }
 
-.about__achievement-img {
+.about__achievement-imgbox {
   min-width: 214px;
+  position: relative;
 }
 
 .about__achievement-title {
@@ -151,4 +152,13 @@ body {
 .text--color {
   font-weight: 600;
   color: #F2A531;
+}
+
+.about__achievement-arrow {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
