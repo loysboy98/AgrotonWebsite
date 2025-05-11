@@ -132,3 +132,23 @@ body {
 .about__achievement-img {
   min-width: 214px;
 }
+
+.about__achievement-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.about__achievement-text {
+  font-weight: 300;
+  font-size: 14px;  
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.text--color {
+  font-weight: 600;
+  color: #F2A531;
+}
