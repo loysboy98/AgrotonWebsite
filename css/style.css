@@ -89,14 +89,21 @@ body {
 }
 
 .about__top {
-  align-items: center;
+  text-align: center;
   color: #FDFDF0;
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-transform: uppercase;
+  min-height: 748px;
 }
 
 .about__title {
+  font-family: 'WorkSans-SemiBold', sans-serif;
   font-weight: 600;
-  font-style: 250px;
-  line-height: 1.4;
+  font-size: 250px;
+  line-height: 0.9;
+  padding-top: 80px;
 }
 
 .about__text {
@@ -104,4 +111,24 @@ body {
   font-weight: 500;
   font-size: 32px;
   line-height: 1.2;
+}
+
+.about__achievements {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: -55px;
+}
+
+.about__achievement {
+  display: flex;
+  border-radius: 20px;
+  background-color: #F4F4E7;
+  max-width: 580px;
+  padding: 14px 10px;
+  gap: 0 20px;
+}
+
+.about__achievement-img {
+  min-width: 214px;
 }
