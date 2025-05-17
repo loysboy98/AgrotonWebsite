@@ -13,7 +13,7 @@ Live Preview: *(https://loysboy98.github.io/AgrotonWebsite/)*
 *Desktop version*
 
 <p align="center">
-  <img src="./screenshots/mobile-preview.png" alt="Mobile View" width="450"/>
+  <img src="images/screenshots/mobile-preview.png" alt="Mobile View" width="450"/>
 </p>
 <p align="center"><em>Mobile version</em></p>
 
