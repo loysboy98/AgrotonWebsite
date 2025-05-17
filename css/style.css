@@ -396,6 +396,18 @@ body {
   background-color: #F4F4E7;
   border-radius: 10px;
   gap: 0 19px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.partners__box-top::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/logo-min.png);
+  width: 63px;
+  height: 56px;
+  top: 30px;
+  left: 20px;
 }
 
 .partners__box-list {
@@ -403,3 +415,121 @@ body {
   padding-bottom: 30px;
   margin-top: auto;
 }
+
+.partners__box-item + .partners__box-item {
+  margin-top: 15px;
+}
+
+.partners__box-item {
+  font-weight: 500;
+  color: #000;
+  padding-left: 39px;
+  position: relative;
+}
+
+.partners__box-item::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  background-image: url(../images/partners-dots.svg);
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.partners__box-item span {
+  font-weight: 600;
+  color: #F2A531;
+}
+
+.partners__box-text {
+  background-color: #0D1615;
+  border-radius: 10px;
+  padding: 30px 80px 30px 30px;
+  color:#FFF;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.partners__box-text span {
+ color: #F2A531;
+ font-weight: 700;
+}
+
+.blog {
+  margin-bottom: 80px;
+}
+
+.blog__wrapper {
+  background-color: #F4F4E7;
+  border-radius: 20px;
+  padding: 100px 0;
+}
+
+.blog__title {
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'WorkSans-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.blog__items {
+  display: grid;
+  grid-template-columns: 580px auto;
+  grid-template-rows:  1fr 1fr;
+  gap: 32px 44px;
+}
+
+.blog__item-big {
+  grid-row: 1 / -1;
+}
+
+.blog__item-small {
+  display: flex;
+  align-items: center;
+  gap: 0 24px;
+}
+
+.blog__item-info {
+  color: #F2A531;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.blog__item-big .blog__item-img {
+  margin-bottom: 32px;
+}
+
+.blog__item-titlelink {
+  display: block;
+  margin-bottom: 12px;  
+}
+
+.blog__item-title {
+  font-size: 24px;
+  font-family: 'WorkSans-Medium', sans-serif;
+  font-weight: 500;
+  color: #101828;
+  position: relative;
+}
+
+.blog__item-title::after {
+  content: '';
+  position: absolute;
+  background-image: url(../images/blog-arrow.svg);
+  width: 12px;
+  height: 12px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blog__item-text {
+  color: #667085;
+}
+
