@@ -12,8 +12,10 @@ Live Preview: *(https://loysboy98.github.io/AgrotonWebsite/)*
 ![Desktop View](images/screenshots/desktop-preview.png)  
 *Desktop version*
 
-![Mobile View](images/screenshots/mobile-preview.png=200x400)  
-*Mobile version*
+<p align="center">
+  <img src="./screenshots/mobile-preview.png" alt="Mobile View" width="450"/>
+</p>
+<p align="center"><em>Mobile version</em></p>
 
 ## 🚀 Features
 
