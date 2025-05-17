@@ -58,6 +58,10 @@ body {
   margin: 0 auto;
 }
 
+.menu__btn {
+  display: none;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -509,6 +513,7 @@ body {
 .blog__item-titlelink {
   display: block;
   margin-bottom: 12px;  
+  
 }
 
 .blog__item-title {
@@ -517,6 +522,7 @@ body {
   font-weight: 500;
   color: #101828;
   position: relative;
+  padding-right: 30px;
 }
 
 .blog__item-title::after {
@@ -545,6 +551,7 @@ body {
   justify-content: space-between;
   margin-bottom: 30px;
   padding-right: 100px;
+  gap: 20px;
 }
 
 .footer__element-title {
